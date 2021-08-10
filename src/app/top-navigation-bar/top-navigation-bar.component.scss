@@ -1,0 +1,30 @@
+@import "../../colors";
+
+.bar {
+  margin-top: 20px;
+}
+
+.bar_middle {
+  margin: 0px auto;
+  width: fit-content;
+}
+
+.bar_right {
+
+}
+
+.bar_middle ul {
+  list-style-type: none;
+  background: white;
+  float: left;
+  border-radius: 10px;
+}
+
+.bar_middle ul li {
+  float: left;
+  background: $c_EDEEF2;
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
