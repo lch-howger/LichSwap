@@ -2,8 +2,8 @@
 
   <div class="bar_middle">
     <ul>
-      <li *ngFor="let item of tabArr">
-        <span>{{item}}</span>
+      <li *ngFor="let item of tabs">
+        <a routerLink="{{item.router}}">{{item.title}}</a>
       </li>
     </ul>
   </div>

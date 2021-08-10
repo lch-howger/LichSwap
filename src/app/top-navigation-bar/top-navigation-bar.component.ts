@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {TabInfo, TABS} from "./tab-info";
 
 @Component({
   selector: 'app-top-navigation-bar',
@@ -7,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class TopNavigationBarComponent implements OnInit {
 
-  tabArr: string[] = ["兑换", "流动池", "投票", "图表"]
+  tabs: TabInfo[] = TABS
 
   constructor() {
   }
