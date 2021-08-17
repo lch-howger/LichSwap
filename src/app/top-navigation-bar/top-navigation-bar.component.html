@@ -2,12 +2,12 @@
 
   <div class="bar_middle">
     <ul>
-      <li *ngFor="let item of tabs">
+      <li *ngFor="let item of tabs;let key=index;" [ngClass]="">
         <a routerLink="{{item.router}}">{{item.title}}</a>
       </li>
     </ul>
   </div>
-  
+
   <div class="bar_right"></div>
 
 

@@ -9,6 +9,8 @@ import {TabInfo, TABS} from "./tab-info";
 export class TopNavigationBarComponent implements OnInit {
 
   tabs: TabInfo[] = TABS
+  nowIndex = 0
+  nowPage = this.tabs[0]
 
   constructor() {
   }
